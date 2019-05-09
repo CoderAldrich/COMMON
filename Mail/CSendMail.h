@@ -36,7 +36,7 @@ public:
     //邮件接收者
     void setReceiver(const std::string name, const std::string address);            //先clear再add
     void addReceiver(const std::string name, const std::string address);            //增加邮件接收者，name是收件人名字，mail是地址
-    void clearReceiver();                                                            //情况邮件接收者
+    void clearReceiver();                                                            //清空邮件接收者
 
     //添加附件
     void AddFilePath(std::string szFilePath);                                        //添加附件路径到附件列表中，一般的smtp服务器处理附件不超过50MB 

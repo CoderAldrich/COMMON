@@ -2,7 +2,7 @@
 #define _MD5_H
 #include <Windows.h>
 /*
-//ÓÃ·¨£º
+//usageï¼š
 const char *text = "hello world";
 CMD5 iMD5;
 iMD5.GenerateMD5(text, strlen(text) );
